@@ -6,6 +6,10 @@
 # Set your cron to schedule dump periodically
 #
 
+###############################################################################
+# Variables
+###############################################################################
+
 # Set your database name 
 db_name='';
 
@@ -17,6 +21,10 @@ dump_command_path='/usr/bin/pg_dump';
 
 # Set your compression command
 zip_command_path='/bin/gzip';
+
+###############################################################################
+# Execution
+###############################################################################
 
 # Get the current datatime
 CURRENT_DATETIME=`date +%Y%m%d%H%M%S`;
