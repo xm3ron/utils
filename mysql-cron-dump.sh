@@ -7,16 +7,16 @@
 #
 
 # Set your database name 
-db_name='moodle';
+db_name='';
 
 # Set your username
-db_user='moodler';
+db_user='';
 
 # Set your password
-db_pass='moodlerpassword';
+db_pass='';
 
-# Set your system's path where store dumps
-dumps_dir="/tmp/";
+# Set your system's path where store dumps (add final /)
+dumps_dir="";
 
 # Set your dump command
 dump_command_path='/usr/bin/mysqldump';

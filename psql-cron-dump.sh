@@ -7,10 +7,10 @@
 #
 
 # Set your database name 
-db_name='database_name';
+db_name='';
 
 # Set your system's path where store dumps
-dumps_dir="/home/misterfantacalcio.it/etc/db_dumps/";
+dumps_dir="";
 
 # Set your dump command
 dump_command_path='/usr/bin/pg_dump';
