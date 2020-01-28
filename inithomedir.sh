@@ -24,7 +24,7 @@ fi
 ln -sfv "${DOTFILES_HOME_DIR}/aliases" "${HOME_DIR}/.aliases";
 ln -sfv "${DOTFILES_HOME_DIR}/profile" "${HOME_DIR}/.profile";
 curl -Lo /tmp/install.sh https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
-sh /tmpinstall.sh
+sh /tmp/install.sh
 ln -sfv "${DOTFILES_HOME_DIR}/zshrc" "${HOME_DIR}/.zshrc";
 
 # SSH
@@ -36,4 +36,4 @@ ln -sfv "${DOTFILES_HOME_DIR}/gitconfig" "${HOME_DIR}/.gitconfig";
 
 # VIM
 ln -sfv "${DOTFILES_HOME_DIR}/vimrc" "${HOME_DIR}/.vimrc";
-ln -sfv "${DOTFILES_HOME_DIR}/vim" "${HOME_DIR}/.vim";
+ln -sfnv "${DOTFILES_HOME_DIR}/vim" "${HOME_DIR}/.vim";
