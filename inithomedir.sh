@@ -20,6 +20,8 @@ fi
 
 # create symlink to dotfiles
 
+# TODO: clone git repositories
+
 # SHELL
 ln -sfv "${DOTFILES_HOME_DIR}/aliases" "${HOME_DIR}/.aliases";
 ln -sfv "${DOTFILES_HOME_DIR}/profile" "${HOME_DIR}/.profile";
@@ -39,3 +41,6 @@ ln -sfnv "${DOTFILES_HOME_DIR}/vim" "${HOME_DIR}/.vim";
 
 # TASKWARRIOR
 ln -sfnv "${DOTFILES_HOME_DIR}/taskrc" "${HOME_DIR}/.taskrc";
+
+# TIMEWARRIOR
+ln -sfnv "${SRC_DIR}/tasks/timewarrior" "${HOME_DIR}/.timewarrior";
