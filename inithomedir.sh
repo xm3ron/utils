@@ -30,10 +30,12 @@ ln -sfv "${DOTFILES_HOME_DIR}/zshrc" "${HOME_DIR}/.zshrc";
 # SSH
 ln -sfnv "${DOTFILES_HOME_DIR}/ssh" "${HOME_DIR}/.ssh";
 
-
 # GIT
 ln -sfv "${DOTFILES_HOME_DIR}/gitconfig" "${HOME_DIR}/.gitconfig";
 
 # VIM
 ln -sfv "${DOTFILES_HOME_DIR}/vimrc" "${HOME_DIR}/.vimrc";
 ln -sfnv "${DOTFILES_HOME_DIR}/vim" "${HOME_DIR}/.vim";
+
+# TASKWARRIOR
+ln -sfnv "${DOTFILES_HOME_DIR}/taskrc" "${HOME_DIR}/.taskrc";
